@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="head-content">
+        <h1>Learn to code by watching others</h1>
+        <p class="content">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="form-content">
+        <p class="try-free">
+          <b>Try it free 7 days</b> then $20/mo. thereafter
+        </p>
+        <form action="./thankyou.html">
+          <div class="input-div">
+            <input
+              autocomplete="off"
+              class="input"
+              type="text"
+              id="firstname"
+              name="First Name"
+              placeholder="First Name"
+              required
+            />
+            <img class="error" src="./images/icon-error.svg" alt="icon-error" />
+          </div>
+          <label class="input-label" for="firstname"
+            >First Name cannot be empty</label
+          >
+          <div class="input-div">
+            <input
+              autocomplete="off"
+              class="input"
+              type="text"
+              id="lastname"
+              name="Last Name"
+              placeholder="Last Name"
+              required
+            />
+            <img class="error" src="./images/icon-error.svg" alt="icon-error" />
+          </div>
+          <label class="input-label" for="lastname"
+            >Last Name cannot be empty</label
+          >
+          <div class="input-div">
+            <input
+              autocomplete="off"
+              class="input"
+              type="email"
+              id="Email"
+              name="Email Address"
+              placeholder="Email Address"
+              required
+            />
+            <img class="error" src="./images/icon-error.svg" alt="icon-error" />
+          </div>
+          <label class="input-label" for="Email"
+            >Looks like this is not a email</label
+          >
+          <div class="input-div">
+            <input
+              autocomplete="off"
+              class="input"
+              type="Password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+            <img class="error" src="./images/icon-error.svg" alt="icon-error" />
+          </div>
+          <label class="input-label" for="password"
+            >Password cannot be empty</label
+          >
+          <button class="submit">Claim your free trial</button>
+          <p class="terms">
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </p>
+        </form>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
