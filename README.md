@@ -1,5 +1,9 @@
 # Frontend Mentor - Intro component with sign up form
 
+Please check the below link to visit the LIVE PAGE of the Project:
+
+[GitHub Live Page - Intro component with sign up form - Sree Mouli Chinta](https://sreemoulichinta.github.io/frontendMentor-signupForm/)
+
 ![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
